@@ -1,9 +1,10 @@
 [build]
   publish = "build"
-  command = "npm run build"
+  command = "CI=false npm run build"
 
 [build.environment]
   REACT_APP_API_URL = "https://biznesassistant-api.onrender.com"
+  CI = "false"
 
 [[redirects]]
   from = "/*"
