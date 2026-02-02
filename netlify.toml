@@ -3,7 +3,7 @@
   command = "npm run build"
 
 [build.environment]
-  REACT_APP_API_URL = "https://bizcore-saas-api.onrender.com"
+  REACT_APP_API_URL = "https://biznesassistant-backend.onrender.com"
   DISABLE_ESLINT_PLUGIN = "true"
 
 [[redirects]]
