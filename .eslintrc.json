@@ -7,8 +7,5 @@
     "@typescript-eslint/no-unused-vars": "warn",
     "react-hooks/exhaustive-deps": "warn",
     "no-unreachable": "warn"
-  },
-  "env": {
-    "CI": false
   }
 }
