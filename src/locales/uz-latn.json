@@ -1,0 +1,583 @@
+{
+  "common": {
+    "loading": "Yuklanmoqda...",
+    "error": "Xatolik",
+    "save": "Saqlash",
+    "cancel": "Bekor qilish",
+    "edit": "Tahrirlash",
+    "delete": "O'chirish",
+    "add": "Qo'shish",
+    "search": "Qidirish",
+    "filter": "Filter",
+    "next": "Keyingi",
+    "previous": "Oldingi",
+    "total": "Jami",
+    "status": "Holati",
+    "date": "Sana",
+    "amount": "Miqdor",
+    "description": "Tavsif",
+    "name": "Nomi",
+    "email": "Email",
+    "phone": "Telefon",
+    "address": "Manzil",
+    "view": "Ko'rish"
+  },
+  "navigation": {
+    "dashboard": "Boshqaruv paneli",
+    "accounting": "Buxgalteriya",
+    "crm": "Mijozlar bilan ish",
+    "invoices": "Hisob-fakturalar",
+    "settings": "Sozlamalar",
+    "tasks": "Vazifalar",
+    "logout": "Chiqish"
+  },
+  "auth": {
+    "login": "Kirish",
+    "register": "Ro'yxatdan o'tish",
+    "email": "Email",
+    "password": "Parol",
+    "confirmPassword": "Parolni tasdiqlash",
+    "fullName": "To'liq ism",
+    "username": "Foydalanuvchi nomi",
+    "rememberMe": "Meni eslab",
+    "forgotPassword": "Parolni unutdingizmi?",
+    "loginSuccess": "Muvaffaqiyatli kirish",
+    "registerSuccess": "Muvaffaqiyatli ro'yxatdan o'tish",
+    "invalidCredentials": "Noto'gri email yoki parol",
+    "emailRequired": "Email talab qilinadi",
+    "passwordRequired": "Parol talab qilinadi",
+    "emailAlreadyRegistered": "Bu email bilan ro'yxatdan o'tilgan",
+    "usernameTaken": "Bu foydalanuvchi nomi band"
+  },
+  "dashboard": {
+    "title": "Boshqaruv paneli",
+    "subtitle": "Biznesingizga umumiy ko'rish",
+    "views": {
+      "basic": "Oddiy",
+      "enhanced": "Kengaytirilgan",
+      "roleBased": "Rolga asoslangan"
+    },
+    "enhanced": {
+      "title": "Kengaytirilgan Analitika Paneli"
+    },
+    "roleBased": {
+      "title": "Rolga asoslangan Panel",
+      "currentRole": "Joriy rol",
+      "relevantKPIs": "Sizning rolingiz uchun muhim KPIlar"
+    },
+    "periods": {
+      "daily": "Kunlik",
+      "weekly": "Haftalik", 
+      "monthly": "Oylik",
+      "quarterly": "Choraklik"
+    },
+    "categories": {
+      "revenue": "Daromad",
+      "expenses": "Xarajatlar",
+      "profit": "Foyda",
+      "customers": "Mijozlar",
+      "invoices": "Hisob-fakturalar",
+      "leads": "Potentsial mijozlar",
+      "deals": "Shartnomalar"
+    },
+    "kpi": {
+      "totalRevenue": "Jami daromad",
+      "activeTasks": "Faol vazifalar",
+      "totalCustomers": "Jami mijozlar",
+      "conversionRate": "Konversiya darajasi",
+      "revenue": "Daromad",
+      "expenses": "Xarajatlar", 
+      "profit": "Foyda",
+      "customers": "Mijozlar",
+      "invoices": "Hisob-fakturalar",
+      "leads": "Potentsial mijozlar",
+      "deals": "Shartnomalar"
+    },
+    "charts": {
+      "revenueVsExpenses": "Daromad vs Xarajatlar",
+      "revenue": "Daromad",
+      "expenses": "Xarajatlar",
+      "taskCompletion": "Vazifalarni bajarish",
+      "completed": "Bajarildi",
+      "inProgress": "Jarayonda",
+      "pending": "Kutilmoqda",
+      "trend": "Trend",
+      "forecast": "Prognoz"
+    },
+    "widgets": {
+      "adminOverview": "Administrator ko'rinishi",
+      "financialSummary": "Moliyaviy xulosa",
+      "teamPerformance": "Jamoa samaradorligi",
+      "taskManagement": "Vazifalarni boshqarish",
+      "customerAnalytics": "Mijozlar analitikasi",
+      "totalUsers": "Jami foydalanuvchilar",
+      "activeUsers": "Faol foydalanuvchilar",
+      "systemHealth": "Tizim salomatligi",
+      "pendingTasks": "Kutilayotgan vazifalar",
+      "totalRevenue": "Jami daromad",
+      "totalExpenses": "Jami xarajatlar",
+      "netProfit": "Toza foyda",
+      "taxOwed": "To'lanishi kerak bo'lgan soliq",
+      "teamMembers": "Jamoa a'zolari",
+      "tasksCompleted": "Bajarilgan vazifalar",
+      "topPerformers": "Eng yaxshi ishlovchilar",
+      "tasks": "vazifalar",
+      "overdueTasks": "Muddati o'tgan vazifalar",
+      "completedTasks": "Bajarilgan vazifalar",
+      "totalCustomers": "Jami mijozlar",
+      "newCustomers": "Yangi mijozlar",
+      "customerSegments": "Mijozlar segmentlari",
+      "noPermission": "Siz ushbu vidjetni ko'rish uchun ruxsatga egasiz"
+    },
+    "insights": {
+      "title": "Biznes tushunchalari",
+      "revenueGrowth": "Daromad o'sishi",
+      "profitMargin": "Foyda marjasi", 
+      "trendDirection": "Trend yo'nalishi"
+    },
+    "permissions": {
+      "view_all": "Hammasini ko'rish",
+      "edit_all": "Hammasini tahrirlash",
+      "manage_users": "Foydalanuvchilarni boshqarish",
+      "view_financial": "Moliyaviyni ko'rish",
+      "edit_financial": "Moliyaviyni tahrirlash",
+      "view_reports": "Hisobotlarni ko'rish",
+      "manage_tasks": "Vazifalarni boshqarish",
+      "view_team": "Jamoadan ko'rish"
+    },
+    "recentActivity": {
+      "title": "So'nggi faoliyat",
+      "taskCompleted": "vazifani tugatdi",
+      "invoiceCreated": "hisob-faktura yaratildi",
+      "customerAdded": "mijoz qo'shildi",
+      "expenseAdded": "xarajat qo'shildi",
+      "pending": "Kutilmoqda",
+      "timeAgo": {
+        "hoursAgo": "{0} soat oldin",
+        "daysAgo": "{0} kun oldin",
+        "oneHourAgo": "1 soat oldin",
+        "oneDayAgo": "1 kun oldin",
+        "twoHoursAgo": "2 soat oldin",
+        "threeHoursAgo": "3 soat oldin",
+        "fiveHoursAgo": "5 soat oldin"
+      }
+    },
+    "growthPercentage": "o'tgan oyga nisbatan",
+    "quickActions": "Tezkor amallar",
+    "createInvoice": "Hisob-faktura yaratish",
+    "addTransaction": "Tranzaksiyalar qo'shish",
+    "newContact": "Yangi mijoz",
+    "loadingError": "Panel ma'lumotlarini yuklashda xatolik"
+  },
+  "accounting": {
+    "title": "Buxgalteriya",
+    "subtitle": "Daromadlar va xarajatlarni boshqarish",
+    "transactions": "Tranzaksiyalar",
+    "income": "Daromad",
+    "expense": "Xarajat",
+    "addTransaction": "Tranzaksiya Qo'shish",
+    "creating": "Yaratilmoqda...",
+    "addIncome": "Daromad qo'shish",
+    "addExpense": "Xarajat qo'shish",
+    "category": "Kategoriya",
+    "vatAmount": "QQS miqdori",
+    "taxAmount": "Soliq miqdori",
+    "noTransactions": "Tranzaksiyalar topilmadi",
+    "netProfit": "Toza foyda",
+    "modal": {
+      "title": "Tranzaksiya Qo'shish",
+      "type": "Turi",
+      "amount": "Miqdor",
+      "description": "Tavsif",
+      "date": "Sana",
+      "vatIncluded": "QQSni o'z ichiga oladi"
+    },
+    "categories": {
+      "income": {
+        "sales": "Sotuvlar",
+        "services": "Xizmatlar",
+        "investment": "Investitsiya",
+        "other_income": "Boshqa daromad"
+      },
+      "expense": {
+        "salaries": "Maoshlar",
+        "rent": "Ijaraga to'lash",
+        "utilities": "Kommunal xizmatlar",
+        "marketing": "Marketing",
+        "supplies": "Ta'minot",
+        "taxes": "Soliklar",
+        "other_expense": "Boshqa xarajat"
+      }
+    },
+    "messages": {
+      "transactionDeleted": "Tranzaksiya muvaffaqiyatli o'chirildi!",
+      "deleteFailed": "Tranzaksiyani o'chirib bo'lmadi. Iltimos, qayta urinib ko'ring."
+    }
+  },
+  "crm": {
+    "title": "Mijozlar bilan ish",
+    "subtitle": "Mijozlar va potentsial mijozlarni boshqarish",
+    "contacts": "Mijozlar",
+    "leads": "Potentsial mijozlar",
+    "deals": "Shartnomalar",
+    "addContact": "Mijoz qo'shish",
+    "addLead": "Potentsial mijoz qo'shish",
+    "company": "Kompaniya",
+    "position": "Lavozim",
+    "noContacts": "Mijozlar topilmadi",
+    "noLeads": "Potentsial mijozlar topilmadi",
+    "totalContacts": "Jami mijozlar",
+    "activeLeads": "Faol potentsial mijozlar",
+    "activeDeals": "Faol shartnomalar"
+  },
+  "inviteColleagues": {
+    "title": "Hamkasblarni taklif qilish",
+    "fullName": "To'liq ism",
+    "email": "Email",
+    "username": "Foydalanuvchi nomi",
+    "password": "Parol",
+    "phone": "Telefon (Ixtiyoriy)",
+    "role": "Lavozim",
+    "generatePassword": "Yaratish",
+    "addAnother": "+ Yana bir hamkasb qo'shish",
+    "remove": "O'chirish",
+    "cancel": "Bekor qilish",
+    "createAccounts": "{0} ta hisob yaratish",
+    "creatingAccounts": "Hisoblar yaratilmoqda...",
+    "accountCreated": "{0} ta hamkasb hisobi muvaffaqiyatli yaratildi!",
+    "roles": {
+      "employee": "Xodim",
+      "accountant": "Buxgalter", 
+      "manager": "Menejer",
+      "admin": "Admin"
+    }
+  },
+  "invoices": {
+    "title": "Hisob-fakturalar",
+    "subtitle": "Hisob-fakturalarni boshqarish",
+    "invoiceNumber": "Hisob-faktura raqami",
+    "customer": "Mijoz",
+    "issueDate": "Berilgan sana",
+    "dueDate": "To'lov sanasi",
+    "paidAmount": "To'langan summa",
+    "growthPercentage": "o'tgan oyga nisbatan",
+    "quickActions": "Tezkor amallar",
+    "createInvoice": "Hisob-faktura yaratish",
+    "newContact": "Yangi mijoz",
+    "recordPayment": "To'lovni qayd etish",
+    "totalInvoices": "Jami hisob-fakturalar",
+    "overdueInvoices": "Muddati o'tgan hisob-fakturalar",
+    "pending": "Kutilmoqda",
+    "modal": {
+      "title": "Hisob-faktura Yaratish",
+      "customerName": "Mijoz Nomi",
+      "totalAmount": "Jami Summa",
+      "paidAmount": "To'langan Summa",
+      "status": "Holati",
+      "issueDate": "Berilgan Sana",
+      "dueDate": "To'lov Sanasi",
+      "notes": "Izohlar",
+      "creating": "Yaratilmoqda...",
+      "createInvoice": "Hisob-faktura Yaratish"
+    },
+    "statuses": {
+      "draft": "Qoralama",
+      "sent": "Yuborilgan",
+      "paid": "To'langan",
+      "overdue": "Muddati o'tgan"
+    },
+    "reliability": {
+      "title": "💰 To'lov Ishonchiligi:",
+      "avgPayment": "📅 O'rtada to'lash: {0} kun",
+      "totalInvoices": "💳 Jami hisoblar: {0}",
+      "paidInvoices": "✅ To'langanlar: {0}",
+      "lastPayment": "⏰ Oxirgi to'lov: {0}",
+      "loading": "🔄 Yuklanmoqda..."
+    }
+  },
+  "tasks": {
+    "title": "Vazifalar",
+    "subtitle": "Barcha vazifalarni boshqarish",
+    "create": "Vazifa yaratish",
+    "createTitle": "Yangi vazifa",
+    "unassigned": "Tayinlanmagan",
+    "selectAssignee": "Mas'ulni tanlang",
+    "filters": {
+      "search": "Qidirish...",
+      "allStatuses": "Barcha holatlar",
+      "allPriorities": "Barcha prioritetlar",
+      "clear": "Tozalash"
+    },
+    "status": {
+      "pending": "Kutilmoqda",
+      "inProgress": "Jarayonda",
+      "completed": "Bajarildi",
+      "cancelled": "Bekor qilindi"
+    },
+    "priority": {
+      "low": "Past",
+      "medium": "O'rta",
+      "high": "Yuqori",
+      "urgent": "Shoshilinch"
+    },
+    "table": {
+      "title": "Sarlavha",
+      "assignee": "Mas'ul",
+      "priority": "Prioritet",
+      "status": "Holat",
+      "dueDate": "Muddati",
+      "actions": "Harakatlar",
+      "edit": "Tahrirlash"
+    },
+    "form": {
+      "title": "Sarlavha",
+      "description": "Tavsif",
+      "priority": "Prioritet",
+      "assignee": "Mas'ul",
+      "dueDate": "Muddat"
+    },
+    "success": {
+      "created": "Vazifa muvaffaqiyatli yaratildi",
+      "updated": "Vazifa muvaffaqiyatli yangilandi"
+    },
+    "error": {
+      "fetch": "Vazifalarni yuklashda xatolik",
+      "fetchUsers": "Foydalanuvchilarni yuklashda xatolik",
+      "create": "Vazifa yaratishda xatolik",
+      "update": "Vazifani yangilashda xatolik"
+    }
+  },
+  "landing": {
+    "title": "Biznesingizni o'zgartiring",
+    "subtitle": "O'zbekistonning KICHIK va O'RTA bizneslari uchun yagona platforma - buxgalteriya, mijozlar bilan ishlash va hisob-fakturalar",
+    "getStarted": "Bepul boshlang",
+    "signIn": "Kirish",
+    "features": {
+      "title": "Muvaffaqiyat uchun kerakli hamma narsa",
+      "smartAnalytics": {
+        "title": "Aqlli analitika",
+        "description": "Ilg'or analitika va hisobotlar bilan biznesingizning samaradorligini real vaqtda kuzating"
+      },
+      "teamCollaboration": {
+        "title": "Jamoa hamkorligi",
+        "description": "Jamoangiz bilan intuitiv hamkorlik vositalari va umumiy ish joylari orqali muvaffaqiyatli ishlash"
+      },
+      "enterpriseSecurity": {
+        "title": "Korporativ xavfsizlik",
+        "description": "Biznes ma'lumotlaringizni xavfsiz saqlash uchun bank darajasidagi xavfsizlik va muvofiqlik"
+      },
+      "lightningFast": {
+        "title": "Chaqmoq tezligida",
+        "description": "Optimallashtirilgan samaradorlik biznesingizning operatsiyalari kechikmalarsiz ishlashini ta'minlaydi"
+      },
+      "fiveStarSupport": {
+        "title": "5 yulduzli qo'llab-quvvatlash",
+        "description": "Har bir qadamda sizga yordam berish uchun mutaxassislar jamoasi"
+      },
+      "provenResults": {
+        "title": "Isbotlangan natijalar",
+        "description": "Platformamiz yordamida operatsiyalarini o'zgartirgan minglab bizneslar qatoriga qo'iling"
+      }
+    },
+    "pricing": {
+      "title": "Oddiy, shaffof narxlar",
+      "starter": {
+        "name": "Boshlang'ich",
+        "price": "$29",
+        "period": "/oy",
+        "description": "Kichik bizneslar uchun mukammal",
+        "features": [
+          "10 gacha foydalanuvchi",
+          "Asosiy CRM xususiyatlari",
+          "Hisob-faktura yaratish",
+          "Email qo'llab-quvvatlash",
+          "Mobil ilova orqali foydalanish"
+        ]
+      },
+      "professional": {
+        "name": "Professional",
+        "price": "$79",
+        "period": "/oy",
+        "description": "O'sayotgan bizneslar uchun ideal",
+        "features": [
+          "50 gacha foydalanuvchi",
+          "Ilg'or CRM va Analitika",
+          "Avtomatlashtirilgan ish jarayonlari",
+          "Prioritet qo'llab-quvvatlash",
+          "API ga kirish",
+          "Maxsus integratsiyalar"
+        ]
+      },
+      "enterprise": {
+        "name": "Korporativ",
+        "price": "$199",
+        "period": "/oy",
+        "description": "Katta miqyosdagi operatsiyalar uchun",
+        "features": [
+          "Cheksiz foydalanuvchilar",
+          "To'liq funktsional kirish",
+          "Shaxsiy hisob menejeri",
+          "SLA kafolati",
+          "Maxsus o'qitish",
+          "Oq brend imkoniyatlari"
+        ]
+      }
+    },
+    "about": {
+      "title": "Biz haqimizda",
+      "subtitle": "Biz raqamli asrda bizneslarni gullab-yashnashiga yordam berishga bag'ishlangan tadbirkorlar va texnologlar jamoasimiz",
+      "mission": "Bizning missiyamiz",
+      "missionText": "Barcha hajmdagi bizneslarni operatsiyalarni soddalashtirish, o'sishni rag'batlantirish va doimiy muvaffaqiyat yaratish uchun zamonaviy vositalar bilan ta'minlash. Biz buyuk texnologiyaning hamma uchun ochiq bo'lishiga ishonamiz.",
+      "teamMembers": "Jamoa a'zolari",
+      "happyCustomers": "Xursand mijozlar"
+    },
+    "faq": {
+      "title": "Ko'p so'raladigan savollar",
+      "questions": [
+        {
+          "question": "Bepul sinov qanday ishlaydi?",
+          "answer": "Barcha Professional xususiyatlariga 14 kun davomida to'liq kirish olasiz. Kredit karta talab qilinmaydi. Sinovdan so'ng, biznesingiz uchun eng yaxshi ishlaydigan rejalardan birini tanlashingiz mumkin."
+        },
+        {
+          "question": "Rejalarni istalgan vaqtda o'zgartira olamanmi?",
+          "answer": "Ha! Istalgan vaqtda rejangizni yangilashingiz yoki kamaytirishingiz mumkin. O'zgarishlar keyingi to'lov tsiklida aks etadi va biz farqlarni proporsional ravishda hisoblaymiz."
+        },
+        {
+          "question": "Qanday qo'llab-quvvatlash taklif qilasiz?",
+          "answer": "Barcha rejalar uchun email qo'llab-quvvatlash, Professional uchun prioritet qo'llab-quvvatlash va Korporativ mijozlar uchun shaxsiy hisob boshqaruvi."
+        },
+        {
+          "question": "Ma'lumotlarim xavfsizmi?",
+          "answer": "Albatta. Bank darajasidagi shifrlash, muntazam xavfsizlik auditlari va GDPR va SOC 2 standartlariga muvofiqlikdan foydalanamiz. Ma'lumotlaringiz har doim biz bilan xavfsiz."
+        },
+        {
+          "question": "Maxsus integratsiyalarni taklif qilasizmi?",
+          "answer": "Professional va Korporativ rejalar API kirishini o'z ichiga oladi. Korporativ mijozlar texnik jamoamizdan maxsus integratsiya yordamini oladilar."
+        }
+      ]
+    },
+    "contact": {
+      "title": "Aloqaga chiqing",
+      "subtitle": "Platformamiz haqida savollaringiz bormi? Demo ko'rishni xohlaysizmi? Jamoamiz biznesingiz uchun to'g'ri yechimni topishga yordam berishga tayyor.",
+      "form": {
+        "name": "Ism",
+        "email": "Email", 
+        "message": "Xabar",
+        "sendButton": "Xabar yuborish"
+      },
+      "info": {
+        "email": "hello@yourcompany.com",
+        "phone": "+998 (90) 123-45-67",
+        "office": "1000 Biznes ko'chasi, 100-ofis<br>Toshkent, O'zbekiston"
+      }
+    }
+  },
+  "subscription": {
+    "defaultCompany": "Standart kompaniya",
+    "taxId": "Soliq ID",
+    "plan": "Reja",
+    "status": "Holat",
+    "loggedInAs": "Tizimga kirdi",
+    "trialExpired": "Sinov muddati tugadi",
+    "trialExpiredMessage": "Sizning 14 kunlik bepul sinov muddatingiz tugadi. BizCore SaaS dan foydalanishni davom ettirish uchun reja tanlang.",
+    "trialDaysLeft": "Sinov muddati qoldi",
+    "trialActive": "Sinov muddati aktiv",
+    "trialWillExpire": "Sizning sinov muddati tugaydi",
+    "upgradeNow": "Hozir yangilantirish",
+    "choosePlan": "Reja tanlash",
+    "subscriptionActive": "Obuna aktiv",
+    "subscriptionExpired": "Obuna tugadi",
+    "reactivateSubscription": "Obunani qayta aktivlashtirish",
+    "manageSubscription": "Obuna boshqaruvi",
+    "billing": "To'lovlar",
+    "paymentMethod": "To'lov usuli",
+    "invoiceHistory": "Hisob-fakturalar tarixi",
+    "nextBillingDate": "Keyingi to'lov sanasi",
+    "planType": "Reja turi",
+    "active": "Aktiv",
+    "expired": "Tugagan",
+    "trialing": "Sinov",
+    "cancelled": "Bekor qilingan",
+    "pastDue": "Kechiktirilgan",
+    "downgradePlan": "Rejani pasaytirish",
+    "upgradePlan": "Rejani ko'tarish",
+    "changePlan": "Rejani o'zgartirish",
+    "currentPlan": "Joriy reja",
+    "selectPlan": "Reja tanlash",
+    "comparePlans": "Rejalarni solishtirish",
+    "trialEndingSoon": "Sinov muddati tugaydi",
+    "trialEndsInDays": "Sizning sinov muddati {0} kundan keyin tugaydi.",
+    "upgradeYourPlan": "Rejangizni yangilantiring",
+    "daysLeftInTrial": "Sinovda {0} kun qoldi"
+  },
+  "autoSave": {
+    "autoSaved": "Avtomatik saqlandi",
+    "autoSaveFailed": "Avtomatik saqlash xatolik yuz berdi",
+    "saving": "Saqlanmoqda...",
+    "saved": "Saqlandi",
+    "draftSaved": "Qoralama saqlandi",
+    "draftSaveFailed": "Qoralama saqlanmadi"
+  },
+  "emailVerification": {
+    "verifyingEmail": "Emailingizni tekshirish...",
+    "verificationFailed": "Email tasdiqlash xatolik yuz berdi",
+    "emailVerified": "Email tasdiqlandi!",
+    "verificationSuccess": "Emailingiz muvaffaqiyatli tasdiqlandi! Hisobingizga kirish uchun login sahifasiga yo'naltirilasiz.",
+    "goToLogin": "Login sahifasiga o'tish",
+    "verificationFailedTitle": "Tasdiqlash xatolik",
+    "verificationFailedMessage": "Emailingizni tasdiqlay olmadik. Havola eskirgan bo'lishi mumkin yoki noto'g'ri.",
+    "resendVerificationEmail": "Tasdiqlash emailini qayta yuborish",
+    "backToLogin": "Login sahifasiga qaytish",
+    "enterEmail": "Tasdiqlash emailini qayta yuborish uchun email manzilingizni kiriting:",
+    "verificationEmailSent": "Tasdiqlash emaili yuborildi! Pochta qutingizni tekshiring.",
+    "failedToResend": "Tasdiqlash emailini qayta yuborib bo'lmadi"
+  },
+  "registration": {
+    "business": {
+      "title": "Biznesingizni Ro'yxatdan O'tkazing",
+      "subtitle": "30 kunlik bepul sinov muddatini boshlang",
+      "info": "Biznes Ma'lumotlari",
+      "name": "Biznes Nomi",
+      "taxId": "Soliq ID (INN)",
+      "email": "Biznes Emaili",
+      "phone": "Biznes Telefoni",
+      "address": "Biznes Manzili",
+      "industry": "Sanoat",
+      "employeeCount": "Xodimlar Soni",
+      "subscriptionTier": "Obuna To'plami",
+      "adminInfo": "Admin Foydalanuvchi Ma'lumotlari",
+      "adminName": "Admin To'liq Ismi",
+      "adminEmail": "Admin Emaili",
+      "adminPhone": "Admin Telefoni",
+      "adminPassword": "Admin Paroli",
+      "register": "Biznesni Ro'yxatdan O'tkazish",
+      "registering": "Ro'yxatdan o'tilmoqda...",
+      "haveAccount": "Hisobingiz bormi?",
+      "signIn": "Kirish",
+      "loginPage": {
+        "title": "Hisobingizga kiring",
+        "subtitle": "Yoki",
+        "createAccount": "yangi hisob yarating",
+        "registerBusiness": "biznesingizni ro'yxatdan o'tkazing",
+        "emailAddress": "Email manzili",
+        "password": "Parol",
+        "signingIn": "Kirilmoqda...",
+        "signIn": "Kirish",
+        "success": "Muvaffaqiyatli kirildi!",
+        "failed": "Kirish muvaffaqiyatsiz tugadi"
+      },
+      "registerPage": {
+        "title": "Hisobingizni yarating",
+        "subtitle": "Yoki",
+        "signIn": "mavjud hisobingizga kiring",
+        "fullName": "To'liq Ism",
+        "emailAddress": "Email manzili",
+        "username": "Foydalanuvchi nomi",
+        "phone": "Telefon (ixtiyoriy)",
+        "password": "Parol",
+        "creating": "Hisob yaratilmoqda...",
+        "createAccount": "Hisob yarating"
+      }
+    }
+  }
+}

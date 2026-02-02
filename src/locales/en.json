@@ -1,0 +1,575 @@
+{
+  "common": {
+    "loading": "Loading...",
+    "error": "Error",
+    "save": "Save",
+    "cancel": "Cancel",
+    "edit": "Edit",
+    "delete": "Delete",
+    "add": "Add",
+    "search": "Search",
+    "filter": "Filter",
+    "next": "Next",
+    "previous": "Previous",
+    "total": "Total",
+    "status": "Status",
+    "date": "Date",
+    "amount": "Amount",
+    "description": "Description",
+    "name": "Name",
+    "email": "Email",
+    "phone": "Phone",
+    "address": "Address",
+    "view": "View"
+  },
+  "navigation": {
+    "dashboard": "Dashboard",
+    "accounting": "Accounting",
+    "crm": "CRM",
+    "invoices": "Invoices",
+    "tasks": "Tasks",
+    "settings": "Settings",
+    "logout": "Logout"
+  },
+  "auth": {
+    "login": "Sign in",
+    "logout": "Sign out",
+    "register": "Register",
+    "email": "Email",
+    "password": "Password",
+    "confirmPassword": "Confirm Password",
+    "fullName": "Full Name",
+    "rememberMe": "Remember me",
+    "forgotPassword": "Forgot your password?",
+    "noAccount": "Don't have an account?",
+    "haveAccount": "Already have an account?",
+    "signIn": "Sign in",
+    "signUp": "Sign up",
+    "loginPage": {
+      "title": "Sign in to your account",
+      "subtitle": "Or",
+      "createAccount": "create a new account",
+      "registerBusiness": "register your business",
+      "emailAddress": "Email address",
+      "password": "Password",
+      "signingIn": "Signing in...",
+      "signIn": "Sign in",
+      "success": "Successfully logged in!",
+      "failed": "Login failed"
+    },
+    "loginSuccess": "Login Successful",
+    "registerSuccess": "Registration Successful",
+    "invalidCredentials": "Invalid email or password",
+    "emailRequired": "Email is required",
+    "passwordRequired": "Password is required",
+    "emailAlreadyRegistered": "Email already registered",
+    "usernameTaken": "Username already taken"
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "subtitle": "Your business overview",
+    "views": {
+      "basic": "Basic",
+      "enhanced": "Enhanced",
+      "roleBased": "Role-Based"
+    },
+    "enhanced": {
+      "title": "Enhanced Analytics Dashboard"
+    },
+    "roleBased": {
+      "title": "Role-Based Dashboard",
+      "currentRole": "Current Role",
+      "relevantKPIs": "Relevant KPIs for Your Role"
+    },
+    "periods": {
+      "daily": "Daily",
+      "weekly": "Weekly", 
+      "monthly": "Monthly",
+      "quarterly": "Quarterly"
+    },
+    "categories": {
+      "revenue": "Revenue",
+      "expenses": "Expenses",
+      "profit": "Profit",
+      "customers": "Customers",
+      "invoices": "Invoices",
+      "leads": "Leads",
+      "deals": "Deals"
+    },
+    "kpi": {
+      "totalRevenue": "Total Revenue",
+      "activeTasks": "Active Tasks",
+      "totalCustomers": "Total Customers",
+      "conversionRate": "Conversion Rate",
+      "revenue": "Revenue",
+      "expenses": "Expenses", 
+      "profit": "Profit",
+      "customers": "Customers",
+      "invoices": "Invoices",
+      "leads": "Leads",
+      "deals": "Deals"
+    },
+    "charts": {
+      "revenueVsExpenses": "Revenue vs Expenses",
+      "revenue": "Revenue",
+      "expenses": "Expenses",
+      "taskCompletion": "Task Completion",
+      "completed": "Completed",
+      "inProgress": "In Progress",
+      "pending": "Pending",
+      "trend": "Trend",
+      "forecast": "Forecast"
+    },
+    "widgets": {
+      "adminOverview": "Admin Overview",
+      "financialSummary": "Financial Summary",
+      "teamPerformance": "Team Performance",
+      "taskManagement": "Task Management",
+      "customerAnalytics": "Customer Analytics",
+      "totalUsers": "Total Users",
+      "activeUsers": "Active Users",
+      "systemHealth": "System Health",
+      "pendingTasks": "Pending Tasks",
+      "totalRevenue": "Total Revenue",
+      "totalExpenses": "Total Expenses",
+      "netProfit": "Net Profit",
+      "taxOwed": "Tax Owed",
+      "teamMembers": "Team Members",
+      "tasksCompleted": "Tasks Completed",
+      "topPerformers": "Top Performers",
+      "tasks": "tasks",
+      "overdueTasks": "Overdue Tasks",
+      "completedTasks": "Completed Tasks",
+      "totalCustomers": "Total Customers",
+      "newCustomers": "New Customers",
+      "customerSegments": "Customer Segments",
+      "noPermission": "You don't have permission to view this widget"
+    },
+    "insights": {
+      "title": "Business Insights",
+      "revenueGrowth": "Revenue Growth",
+      "profitMargin": "Profit Margin", 
+      "trendDirection": "Trend Direction"
+    },
+    "permissions": {
+      "view_all": "View All",
+      "edit_all": "Edit All",
+      "manage_users": "Manage Users",
+      "view_financial": "View Financial",
+      "edit_financial": "Edit Financial",
+      "view_reports": "View Reports",
+      "manage_tasks": "Manage Tasks",
+      "view_team": "View Team"
+    },
+    "recentActivity": {
+      "title": "Recent Activity",
+      "taskCompleted": "completed a task",
+      "invoiceCreated": "created an invoice",
+      "customerAdded": "added a customer",
+      "expenseAdded": "added an expense",
+      "timeAgo": {
+        "hoursAgo": "{0} hours ago",
+        "daysAgo": "{0} days ago",
+        "oneHourAgo": "1 hour ago",
+        "oneDayAgo": "1 day ago",
+        "twoHoursAgo": "2 hours ago",
+        "threeHoursAgo": "3 hours ago",
+        "fiveHoursAgo": "5 hours ago"
+      }
+    },
+    "loadingError": "Error loading dashboard data"
+  },
+  "inviteColleagues": {
+    "title": "Invite Colleagues",
+    "fullName": "Full Name",
+    "email": "Email",
+    "username": "Username",
+    "password": "Password",
+    "phone": "Phone (Optional)",
+    "role": "Role",
+    "generatePassword": "Generate",
+    "addAnother": "+ Add Another Colleague",
+    "remove": "Remove",
+    "cancel": "Cancel",
+    "createAccounts": "Create {0} Account(s)",
+    "creatingAccounts": "Creating Accounts...",
+    "accountCreated": "Successfully created {0} colleague account(s)!",
+    "roles": {
+      "employee": "Employee",
+      "accountant": "Accountant", 
+      "manager": "Manager",
+      "admin": "Admin"
+    }
+  },
+  "tasks": {
+    "title": "Tasks",
+    "subtitle": "Manage all tasks",
+    "create": "Create Task",
+    "createTitle": "New Task",
+    "unassigned": "Unassigned",
+    "selectAssignee": "Select Assignee",
+    "filters": {
+      "search": "Search...",
+      "allStatuses": "All Statuses",
+      "allPriorities": "All Priorities",
+      "clear": "Clear"
+    },
+    "status": {
+      "pending": "Pending",
+      "inProgress": "In Progress",
+      "completed": "Completed",
+      "cancelled": "Cancelled"
+    },
+    "priority": {
+      "low": "Low",
+      "medium": "Medium",
+      "high": "High",
+      "urgent": "Urgent"
+    },
+    "table": {
+      "title": "Title",
+      "assignee": "Assignee",
+      "priority": "Priority",
+      "status": "Status",
+      "dueDate": "Due Date",
+      "actions": "Actions",
+      "edit": "Edit"
+    },
+    "form": {
+      "title": "Title",
+      "description": "Description",
+      "priority": "Priority",
+      "assignee": "Assignee",
+      "dueDate": "Due Date"
+    },
+    "success": {
+      "created": "Task created successfully",
+      "updated": "Task updated successfully"
+    },
+    "error": {
+      "fetch": "Error fetching tasks",
+      "fetchUsers": "Error fetching users",
+      "create": "Error creating task",
+      "update": "Error updating task"
+    }
+  },
+  "accounting": {
+    "title": "Accounting",
+    "subtitle": "Manage your income and expenses",
+    "transactions": "Transactions",
+    "income": "Income",
+    "expense": "Expense",
+    "addTransaction": "Add Transaction",
+    "creating": "Creating...",
+    "addIncome": "Add Income",
+    "addExpense": "Add Expense",
+    "category": "Category",
+    "vatAmount": "VAT Amount",
+    "taxAmount": "Tax Amount",
+    "noTransactions": "No transactions found",
+    "netProfit": "Net Profit",
+    "modal": {
+      "title": "Add Transaction",
+      "type": "Type",
+      "amount": "Amount",
+      "description": "Description",
+      "date": "Date",
+      "vatIncluded": "VAT Included"
+    },
+    "categories": {
+      "income": {
+        "sales": "Sales",
+        "services": "Services",
+        "investment": "Investment",
+        "other_income": "Other Income"
+      },
+      "expense": {
+        "salaries": "Salaries",
+        "rent": "Rent",
+        "utilities": "Utilities",
+        "marketing": "Marketing",
+        "supplies": "Supplies",
+        "taxes": "Taxes",
+        "other_expense": "Other Expense"
+      }
+    },
+    "messages": {
+      "transactionDeleted": "Transaction deleted successfully!",
+      "deleteFailed": "Failed to delete transaction. Please try again."
+    }
+  },
+  "crm": {
+    "title": "CRM",
+    "subtitle": "Manage your contacts and leads",
+    "contacts": "Contacts",
+    "leads": "Leads",
+    "deals": "Deals",
+    "addContact": "Add Contact",
+    "addLead": "Add Lead",
+    "company": "Company",
+    "position": "Position",
+    "noContacts": "No contacts found",
+    "noLeads": "No leads found",
+    "totalContacts": "Total Contacts",
+    "activeLeads": "Active Leads",
+    "activeDeals": "Active Deals"
+  },
+  "invoices": {
+    "title": "Invoices",
+    "subtitle": "Manage your invoices",
+    "invoiceNumber": "Invoice Number",
+    "customer": "Customer",
+    "issueDate": "Issue Date",
+    "dueDate": "Due Date",
+    "paidAmount": "Paid Amount",
+    "remainingAmount": "Remaining Amount",
+    "status": "Status",
+    "createInvoice": "Create Invoice",
+    "noInvoices": "No invoices found",
+    "recordPayment": "Record Payment",
+    "totalInvoices": "Total Invoices",
+    "overdueInvoices": "Overdue Invoices",
+    "pending": "Pending",
+    "modal": {
+      "title": "Create Invoice",
+      "customerName": "Customer Name",
+      "totalAmount": "Total Amount",
+      "paidAmount": "Paid Amount",
+      "status": "Status",
+      "issueDate": "Issue Date",
+      "dueDate": "Due Date",
+      "notes": "Notes",
+      "creating": "Creating...",
+      "createInvoice": "Create Invoice"
+    },
+    "statuses": {
+      "draft": "Draft",
+      "sent": "Sent",
+      "paid": "Paid",
+      "overdue": "Overdue"
+    },
+    "reliability": {
+      "title": "💰 Payment Reliability:",
+      "avgPayment": "📅 Average payment: {0} days",
+      "totalInvoices": "💳 Total invoices: {0}",
+      "paidInvoices": "✅ Paid: {0}",
+      "lastPayment": "⏰ Last payment: {0}",
+      "loading": "🔄 Loading..."
+    }
+  },
+  "landing": {
+    "title": "Transform Your Business",
+    "subtitle": "The all-in-one platform for SMALL and MEDIUM businesses in Uzbekistan - accounting, CRM, and invoicing",
+    "getStarted": "Get Started Free",
+    "signIn": "Sign In",
+    "features": {
+      "title": "Everything You Need to Succeed",
+      "smartAnalytics": {
+        "title": "Smart Analytics",
+        "description": "Get real-time insights into your business performance with advanced analytics and reporting"
+      },
+      "teamCollaboration": {
+        "title": "Team Collaboration",
+        "description": "Work seamlessly with your team using our intuitive collaboration tools and shared workspaces"
+      },
+      "enterpriseSecurity": {
+        "title": "Enterprise Security",
+        "description": "Bank-level security and compliance to keep your business data safe and protected"
+      },
+      "lightningFast": {
+        "title": "Lightning Fast",
+        "description": "Optimized performance ensures your business operations run smoothly without delays"
+      },
+      "fiveStarSupport": {
+        "title": "5-Star Support",
+        "description": "Our expert support team is here to help you succeed every step of the way"
+      },
+      "provenResults": {
+        "title": "Proven Results",
+        "description": "Join thousands of businesses that have transformed their operations with our platform"
+      }
+    },
+    "pricing": {
+      "title": "Simple, Transparent Pricing",
+      "starter": {
+        "name": "Starter",
+        "price": "$29",
+        "period": "/month",
+        "description": "Perfect for small businesses getting started",
+        "features": [
+          "Up to 10 users",
+          "Basic CRM features",
+          "Invoice generation",
+          "Email support",
+          "Mobile app access"
+        ]
+      },
+      "professional": {
+        "name": "Professional",
+        "price": "$79",
+        "period": "/month",
+        "description": "Ideal for growing businesses",
+        "features": [
+          "Up to 50 users",
+          "Advanced CRM & Analytics",
+          "Automated workflows",
+          "Priority support",
+          "API access",
+          "Custom integrations"
+        ]
+      },
+      "enterprise": {
+        "name": "Enterprise",
+        "price": "$199",
+        "period": "/month",
+        "description": "For large-scale operations",
+        "features": [
+          "Unlimited users",
+          "Full feature access",
+          "Dedicated account manager",
+          "SLA guarantee",
+          "Custom training",
+          "White-label options"
+        ]
+      }
+    },
+    "about": {
+      "title": "About Us",
+      "subtitle": "We're a team of passionate entrepreneurs and technologists dedicated to helping businesses thrive in the digital age",
+      "mission": "Our Mission",
+      "missionText": "To empower businesses of all sizes with cutting-edge tools that simplify operations, drive growth, and create lasting success. We believe that great technology should be accessible to everyone.",
+      "teamMembers": "Team Members",
+      "happyCustomers": "Happy Customers"
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "questions": [
+        {
+          "question": "How does the free trial work?",
+          "answer": "You get full access to all Professional features for 14 days. No credit card required. After the trial, you can choose the plan that works best for your business."
+        },
+        {
+          "question": "Can I change plans anytime?",
+          "answer": "Yes! You can upgrade or downgrade your plan at any time. Changes will be reflected in your next billing cycle, and we'll prorate any differences."
+        },
+        {
+          "question": "What kind of support do you offer?",
+          "answer": "We offer email support for all plans, priority support for Professional, and dedicated account management for Enterprise customers."
+        },
+        {
+          "question": "Is my data secure?",
+          "answer": "Absolutely. We use bank-level encryption, regular security audits, and comply with GDPR and SOC 2 standards. Your data is always safe with us."
+        },
+        {
+          "question": "Do you offer custom integrations?",
+          "answer": "Professional and Enterprise plans include API access. Enterprise customers also get custom integration support from our technical team."
+        }
+      ]
+    },
+    "contact": {
+      "title": "Get In Touch",
+      "subtitle": "Have questions about our platform? Want to see a demo? Our team is here to help you find the perfect solution for your business.",
+      "form": {
+        "name": "Name",
+        "email": "Email", 
+        "message": "Message",
+        "sendButton": "Send Message"
+      },
+      "info": {
+        "email": "hello@yourcompany.com",
+        "phone": "+998 (90) 123-45-67",
+        "office": "1000 Business Avenue, Suite 100<br>Tashkent, Uzbekistan"
+      }
+    },
+    "stats": {
+      "activeBusinesses": "Active Businesses",
+      "uptime": "Uptime",
+      "support": "Support",
+      "customerRating": "Customer Rating"
+    }
+  },
+  "subscription": {
+    "defaultCompany": "Default Company",
+    "taxId": "Tax ID",
+    "plan": "Plan",
+    "status": "Status",
+    "loggedInAs": "Logged in as",
+    "trialExpired": "Trial Expired",
+    "trialExpiredMessage": "Your 14-day free trial has ended. Choose a plan to continue using BizCore SaaS.",
+    "trialDaysLeft": "Trial days left",
+    "trialActive": "Trial Active",
+    "trialWillExpire": "Your trial will expire on",
+    "upgradeNow": "Upgrade Now",
+    "choosePlan": "Choose Plan",
+    "subscriptionActive": "Subscription Active",
+    "subscriptionExpired": "Subscription Expired",
+    "reactivateSubscription": "Reactivate Subscription",
+    "manageSubscription": "Manage Subscription",
+    "billing": "Billing",
+    "paymentMethod": "Payment Method",
+    "invoiceHistory": "Invoice History",
+    "nextBillingDate": "Next Billing Date",
+    "planType": "Plan Type",
+    "active": "Active",
+    "expired": "Expired",
+    "trialing": "Trialing",
+    "cancelled": "Cancelled",
+    "pastDue": "Past Due",
+    "downgradePlan": "Downgrade Plan",
+    "upgradePlan": "Upgrade Plan",
+    "changePlan": "Change Plan",
+    "currentPlan": "Current Plan",
+    "selectPlan": "Select Plan",
+    "comparePlans": "Compare Plans",
+    "trialEndingSoon": "Trial Ending Soon",
+    "trialEndsInDays": "Your trial ends in {0} days.",
+    "upgradeYourPlan": "Upgrade your plan",
+    "daysLeftInTrial": "{0} days left in trial"
+  },
+  "autoSave": {
+    "autoSaved": "Auto-saved",
+    "autoSaveFailed": "Auto-save failed",
+    "saving": "Saving...",
+    "saved": "Saved",
+    "draftSaved": "Draft saved",
+    "draftSaveFailed": "Failed to save draft"
+  },
+  "emailVerification": {
+    "verifyingEmail": "Verifying your email...",
+    "verificationFailed": "Email verification failed",
+    "emailVerified": "Email Verified!",
+    "verificationSuccess": "Your email has been successfully verified! You will be redirected to login page.",
+    "goToLogin": "Go to Login",
+    "verificationFailedTitle": "Verification Failed",
+    "verificationFailedMessage": "We could not verify your email. The link may have expired or is invalid.",
+    "resendVerificationEmail": "Resend Verification Email",
+    "backToLogin": "Back to Login",
+    "enterEmail": "Enter your email address to resend verification:",
+    "verificationEmailSent": "Verification email sent! Please check your inbox.",
+    "failedToResend": "Failed to resend verification email"
+  },
+  "registration": {
+    "business": {
+      "title": "Register Your Business",
+      "subtitle": "Start your 30-day free trial today",
+      "info": "Business Information",
+      "name": "Business Name",
+      "taxId": "Tax ID (INN)",
+      "email": "Business Email",
+      "phone": "Business Phone",
+      "address": "Business Address",
+      "industry": "Industry",
+      "employeeCount": "Employee Count",
+      "subscriptionTier": "Subscription Tier",
+      "adminInfo": "Admin User Information",
+      "adminName": "Admin Full Name",
+      "adminEmail": "Admin Email",
+      "adminPhone": "Admin Phone",
+      "adminPassword": "Admin Password",
+      "register": "Register Business",
+      "registering": "Registering...",
+      "haveAccount": "Already have an account?",
+      "signIn": "Sign in"
+    }
+  }
+}
