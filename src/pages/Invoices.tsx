@@ -30,7 +30,6 @@ const Invoices: React.FC = () => {
     customer_name: '',
     total_amount: '',
     paid_amount: '0',
-    paid_date: '',
     issue_date: new Date().toISOString().split('T')[0],
     due_date: new Date(Date.now() + 30 * 24 * 60 * 60 * 1000).toISOString().split('T')[0], // 30 days from now
     status: 'draft',
@@ -197,7 +196,6 @@ const Invoices: React.FC = () => {
         customer_name: '',
         total_amount: '',
         paid_amount: '0',
-        paid_date: '',
         issue_date: new Date().toISOString().split('T')[0],
         due_date: new Date(Date.now() + 30 * 24 * 60 * 60 * 1000).toISOString().split('T')[0], // 30 days from now
         status: 'draft',
@@ -654,16 +652,6 @@ const Invoices: React.FC = () => {
                     onChange={handleInputChange}
                     className="input" 
                     required 
-                  />
-                </div>
-                <div>
-                  <label className="label">{t('invoices.modal.paidDate')}</label>
-                  <input 
-                    type="date" 
-                    name="paid_date"
-                    value={formData.paid_date}
-                    onChange={handleInputChange}
-                    className="input" 
                   />
                 </div>
               </div>
