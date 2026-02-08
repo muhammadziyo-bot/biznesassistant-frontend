@@ -122,7 +122,15 @@
       "financialSummary": "Финансовая сводка",
       "teamPerformance": "Производительность команды",
       "taskManagement": "Управление задачами",
-      "customerAnalytics": "Аналитика клиентов",
+      "customerRating": "Рейтинг клиентов",
+      "costReduction": "Снижение затрат",
+      "roiIncrease": "Увеличение ROI",
+      "timeSaved": "Сэкономленное время",
+      "businessesTransformed": "Трансформированные бизнесы",
+      "avgOperationalSavings": "Средняя операционная экономия",
+      "withinFirst6Months": "В течение первых 6 месяцев",
+      "onAdministrativeTasks": "На административных задачах",
+      "acrossUzbekistan": "По всему Узбекистану",
       "totalUsers": "Всего пользователей",
       "activeUsers": "Активные пользователи",
       "systemHealth": "Здоровье системы",
@@ -372,7 +380,10 @@
     "title": "Трансформируйте ваш бизнес",
     "subtitle": "Единая платформа для МАЛОГО и СРЕДНЕГО бизнеса Узбекистана - бухгалтерия, работа с клиентами и счета-фактуры",
     "getStarted": "Начать бесплатно",
+    "getStartedFree": "Начать бесплатно",
+    "businessRegistration": "Регистрация бизнеса",
     "signIn": "Войти",
+    "mostPopular": "Самый популярный",
     "features": {
       "title": "Все, что нужно для успеха",
       "smartAnalytics": {
@@ -491,6 +502,34 @@
         "phone": "+998 (90) 123-45-67",
         "office": "1000 Бизнес улица, офис 100<br>Ташкент, Узбекистан"
       }
+    },
+    "stats": {
+      "activeBusinesses": "Активные бизнесы",
+      "uptime": "Время работы",
+      "support": "Поддержка",
+      "customerRating": "Рейтинг клиентов",
+      "costReduction": "Снижение затрат",
+      "roiIncrease": "Увеличение ROI",
+      "timeSaved": "Сэкономленное время",
+      "businessesTransformed": "Трансформированные бизнесы",
+      "avgOperationalSavings": "Средняя операционная экономия",
+      "withinFirst6Months": "В течение первых 6 месяцев",
+      "onAdministrativeTasks": "На административных задачах",
+      "acrossUzbekistan": "По всему Узбекистану"
+    },
+    "values": {
+      "customerFirst": "Подход с приоритетом клиента",
+      "customerFirstDesc": "Ваш успех - наш приоритет",
+      "continuousInnovation": "Постоянные инновации",
+      "continuousInnovationDesc": "Всегда улучшаемся, всегда развиваемся",
+      "trustedSecure": "Надежно и безопасно",
+      "trustedSecureDesc": "Стандарты безопасности корпоративного уровня"
+    },
+    "footer": {
+      "copyright": "© 2026 BizCore SaaS. Все права защищены.",
+      "privacyPolicy": "Политика конфиденциальности",
+      "termsOfService": "Условия использования",
+      "cookiePolicy": "Политика использования файлов cookie"
     }
   },
   "subscription": {

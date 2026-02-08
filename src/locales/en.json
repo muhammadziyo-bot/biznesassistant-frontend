@@ -361,7 +361,10 @@
     "title": "Transform Your Business",
     "subtitle": "The all-in-one platform for SMALL and MEDIUM businesses in Uzbekistan - accounting, CRM, and invoicing",
     "getStarted": "Get Started Free",
+    "getStartedFree": "Get Started Free",
+    "businessRegistration": "Business Registration",
     "signIn": "Sign In",
+    "mostPopular": "Most Popular",
     "features": {
       "title": "Everything You Need to Succeed",
       "smartAnalytics": {
@@ -485,7 +488,29 @@
       "activeBusinesses": "Active Businesses",
       "uptime": "Uptime",
       "support": "Support",
-      "customerRating": "Customer Rating"
+      "customerRating": "Customer Rating",
+      "costReduction": "Cost Reduction",
+      "roiIncrease": "ROI Increase",
+      "timeSaved": "Time Saved",
+      "businessesTransformed": "Businesses Transformed",
+      "avgOperationalSavings": "Average operational savings",
+      "withinFirst6Months": "Within first 6 months",
+      "onAdministrativeTasks": "On administrative tasks",
+      "acrossUzbekistan": "Across Uzbekistan"
+    },
+    "values": {
+      "customerFirst": "Customer-First Approach",
+      "customerFirstDesc": "Your success is our priority",
+      "continuousInnovation": "Continuous Innovation",
+      "continuousInnovationDesc": "Always improving, always evolving",
+      "trustedSecure": "Trusted & Secure",
+      "trustedSecureDesc": "Enterprise-grade security standards"
+    },
+    "footer": {
+      "copyright": "© 2026 BizCore SaaS. All rights reserved.",
+      "privacyPolicy": "Privacy Policy",
+      "termsOfService": "Terms of Service",
+      "cookiePolicy": "Cookie Policy"
     }
   },
   "subscription": {

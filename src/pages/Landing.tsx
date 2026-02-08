@@ -344,24 +344,24 @@ const Landing: React.FC = () => {
 
   const businessStats = [
     { 
-      value: '87%', 
-      label: 'Cost Reduction',
-      description: 'Average operational savings'
+      value: '87%',
+      label: t('landing.stats.costReduction'),
+      description: t('landing.stats.avgOperationalSavings')
     },
     { 
-      value: '3.2x', 
-      label: 'ROI Increase',
-      description: 'Within first 6 months'
+      value: '3.2x',
+      label: t('landing.stats.roiIncrease'),
+      description: t('landing.stats.withinFirst6Months')
     },
     { 
-      value: '42%', 
-      label: 'Time Saved',
-      description: 'On administrative tasks'
+      value: '42%',
+      label: t('landing.stats.timeSaved'),
+      description: t('landing.stats.onAdministrativeTasks')
     },
     { 
-      value: '15K+', 
-      label: 'Businesses Transformed',
-      description: 'Across Uzbekistan'
+      value: '15K+',
+      label: t('landing.stats.businessesTransformed'),
+      description: t('landing.stats.acrossUzbekistan')
     }
   ];
 
@@ -499,7 +499,7 @@ const Landing: React.FC = () => {
               onClick={() => window.location.href = '/register'}
             >
               <span className="flex items-center gap-2">
-                Get Started Free
+              {t('landing.getStartedFree')}
                 <ArrowRight className="w-5 h-5" />
               </span>
             </button>
@@ -510,7 +510,7 @@ const Landing: React.FC = () => {
             >
               <span className="flex items-center gap-2">
                 <Building2 className="w-5 h-5" />
-                Business Registration
+                {t('landing.businessRegistration')}
                 <ArrowRight className="w-5 h-5" />
               </span>
             </button>
@@ -519,7 +519,7 @@ const Landing: React.FC = () => {
               className="px-8 py-4 bg-neutral-100 dark:bg-neutral-800 rounded-full font-semibold text-lg text-neutral-900 dark:text-white border border-neutral-300 dark:border-neutral-600 hover:bg-neutral-200 dark:hover:bg-neutral-700 transition-all duration-300"
               onClick={() => window.location.href = '/login'}
             >
-              Sign In
+              {t('landing.signIn')}
             </button>
           </div>
         </motion.div>
@@ -613,7 +613,7 @@ const Landing: React.FC = () => {
               >
                 {plan.popular && (
                   <div className="absolute -top-4 left-1/2 transform -translate-x-1/2 bg-gradient-to-r from-secondary-600 to-primary-600 text-white px-4 py-1 rounded-full text-sm font-semibold">
-                    Most Popular
+                    {t('landing.mostPopular')}
                   </div>
                 )}
                 <div className="bg-white rounded-2xl p-8 h-full">
@@ -702,8 +702,8 @@ const Landing: React.FC = () => {
                       <Users className="w-6 h-6 text-white" />
                     </div>
                     <div>
-                      <div className="font-semibold text-neutral-900">Customer-First Approach</div>
-                      <div className="text-sm text-neutral-600">Your success is our priority</div>
+                      <div className="font-semibold text-neutral-900">{t('landing.values.customerFirst')}</div>
+                      <div className="text-sm text-neutral-600">{t('landing.values.customerFirstDesc')}</div>
                     </div>
                   </div>
                   <div className="flex items-center gap-4">
@@ -711,8 +711,8 @@ const Landing: React.FC = () => {
                       <Zap className="w-6 h-6 text-white" />
                     </div>
                     <div>
-                      <div className="font-semibold text-neutral-900">Continuous Innovation</div>
-                      <div className="text-sm text-neutral-600">Always improving, always evolving</div>
+                      <div className="font-semibold text-neutral-900">{t('landing.values.continuousInnovation')}</div>
+                      <div className="text-sm text-neutral-600">{t('landing.values.continuousInnovationDesc')}</div>
                     </div>
                   </div>
                   <div className="flex items-center gap-4">
@@ -720,8 +720,8 @@ const Landing: React.FC = () => {
                       <Shield className="w-6 h-6 text-white" />
                     </div>
                     <div>
-                      <div className="font-semibold text-neutral-900">Trusted & Secure</div>
-                      <div className="text-sm text-neutral-600">Enterprise-grade security standards</div>
+                      <div className="font-semibold text-neutral-900">{t('landing.values.trustedSecure')}</div>
+                      <div className="text-sm text-neutral-600">{t('landing.values.trustedSecureDesc')}</div>
                     </div>
                   </div>
                 </div>
