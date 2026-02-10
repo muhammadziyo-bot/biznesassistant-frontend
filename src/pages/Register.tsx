@@ -15,15 +15,52 @@ const Register: React.FC = () => {
   const { register } = useAuth();
   const navigate = useNavigate();
 
+  // Password requirements state
+  const [passwordRequirements, setPasswordRequirements] = useState({
+    length: false,
+    uppercase: false,
+    lowercase: false,
+    digit: false,
+  });
+
+  const validatePassword = (password: string) => {
+    setPasswordRequirements({
+      length: password.length >= 8,
+      uppercase: /[A-Z]/.test(password),
+      lowercase: /[a-z]/.test(password),
+      digit: /\d/.test(password),
+    });
+  };
+
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    const { name, value } = e.target;
     setFormData({
       ...formData,
-      [e.target.name]: e.target.value,
+      [name]: value,
     });
+    
+    // Validate password on change
+    if (name === 'password') {
+      validatePassword(value);
+    }
+  };
+
+  const isPasswordValid = () => {
+    return passwordRequirements.length && 
+           passwordRequirements.uppercase && 
+           passwordRequirements.lowercase && 
+           passwordRequirements.digit;
   };
 
   const handleSubmit = async (e: any) => {
     e.preventDefault();
+    
+    // Check password requirements before submission
+    if (!isPasswordValid()) {
+      toast.error('Please meet all password requirements');
+      return;
+    }
+    
     setLoading(true);
 
     try {
@@ -36,6 +73,13 @@ const Register: React.FC = () => {
       setLoading(false);
     }
   };
+
+  const PasswordRequirement = ({ met, text }: { met: boolean; text: string }) => (
+    <div className={`flex items-center text-sm ${met ? 'text-green-600' : 'text-red-600'}`}>
+      <span className="mr-2">{met ? '✓' : '✗'}</span>
+      {text}
+    </div>
+  );
 
   return (
     <div className="min-h-screen flex items-center justify-center bg-gray-50 py-12 px-4 sm:px-6 lg:px-8">
@@ -122,18 +166,41 @@ const Register: React.FC = () => {
                 type="password"
                 autoComplete="new-password"
                 required
-                className="input"
+                className={`input ${formData.password && !isPasswordValid() ? 'border-red-500' : ''}`}
                 value={formData.password}
                 onChange={handleChange}
               />
+              
+              {/* Password Requirements */}
+              {formData.password && (
+                <div className="mt-2 space-y-1 bg-gray-50 p-3 rounded-lg">
+                  <p className="text-xs font-semibold text-gray-700 mb-2">Password must contain:</p>
+                  <PasswordRequirement 
+                    met={passwordRequirements.length} 
+                    text="At least 8 characters" 
+                  />
+                  <PasswordRequirement 
+                    met={passwordRequirements.uppercase} 
+                    text="One uppercase letter (A-Z)" 
+                  />
+                  <PasswordRequirement 
+                    met={passwordRequirements.lowercase} 
+                    text="One lowercase letter (a-z)" 
+                  />
+                  <PasswordRequirement 
+                    met={passwordRequirements.digit} 
+                    text="One number (0-9)" 
+                  />
+                </div>
+              )}
             </div>
           </div>
 
           <div>
             <button
               type="submit"
-              disabled={loading}
-              className="btn btn-primary w-full"
+              disabled={loading || !isPasswordValid()}
+              className="btn btn-primary w-full disabled:opacity-50 disabled:cursor-not-allowed"
             >
               {loading ? 'Creating account...' : 'Create account'}
             </button>
